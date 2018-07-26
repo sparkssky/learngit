@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	CalcCharNum.c	14;"	d	file:
+BUF_SIZE	getpid.c	6;"	d	file:
+Data	LinkListReverse.c	/^	ElementType Data;$/;"	m	struct:Node	file:
+DivideAndConquer	MaxSubSequm.c	/^int DivideAndConquer(int List[],int left,int right)$/;"	f
+ERROR	LinkListReverse.c	5;"	d	file:
+ElementType	LinkListReverse.c	/^typedef int ElementType;$/;"	t	file:
+FindKth	LinkListReverse.c	/^ElementType FindKth(List L, int k)\/\/找到并返回链式表的第K个元素$/;"	f
+Inode	createList.c	/^typedef struct Inode{$/;"	s	file:
+Length	LinkListReverse.c	/^int Length( List L )\/\/求链表长度$/;"	f
+LinkList	polynomials.cpp	/^}term,*LinkList;$/;"	t	typeref:struct:term	file:
+List	LinkListReverse.c	/^typedef PtrToNode List;$/;"	t	file:
+MAX_LENGTH	strFunction/strCmp_my.c	12;"	d	file:
+MAX_WORDS	CalcCharNum.c	15;"	d	file:
+MaxSubSequm1	MaxSubSequm.c	/^int MaxSubSequm1(int A[],int N)$/;"	f
+MaxSubSequm2	MaxSubSequm.c	/^int MaxSubSequm2(int A[],int N)$/;"	f
+MaxSubSequm3	MaxSubSequm.c	/^int MaxSubSequm3(int A[],int N)$/;"	f
+MaxSubSequm4	MaxSubSequm.c	/^int MaxSubSequm4(int List[],int N)$/;"	f
+Next	LinkListReverse.c	/^	PtrToNode Next;$/;"	m	struct:Node	file:
+Node	LinkListReverse.c	/^struct Node{$/;"	s	file:
+Print	LinkListReverse.c	/^void Print(List l)$/;"	f
+PtrToNode	LinkListReverse.c	/^typedef struct Node* PtrToNode;$/;"	t	typeref:struct:Node	file:
+Read	LinkListReverse.c	/^List Read(){$/;"	f
+Reverse	LinkListReverse.c	/^List Reverse(List l)$/;"	f
+TEXT_LEN	CalcCharNum.c	13;"	d	file:
+WORD_LEN	CalcCharNum.c	16;"	d	file:
+addPolyn	polynomials.cpp	/^void addPolyn(polynomial &pa,polynomial &pb){$/;"	f
+c	getMaxCountChar.c	/^	char c;$/;"	m	struct:temp	file:
+cmp	polynomials.cpp	/^int cmp(LinkList qa,LinkList qb){$/;"	f
+coef	polynomials.cpp	/^	float coef;\/\/多项式系数$/;"	m	struct:term	file:
+combination	combination.c	/^void combination(int m,int n)$/;"	f
+createPolyn	polynomials.cpp	/^void createPolyn(polynomial &p,int m)$/;"	f
+data	createList.c	/^    int data;$/;"	m	struct:Inode	file:
+expn	polynomials.cpp	/^	int expn;\/\/多项式指数$/;"	m	struct:term	file:
+getMaxCount	getMaxCountChar.c	/^struct temp getMaxCount(char*str)$/;"	f
+getValue	getValue.c	/^double getValue()$/;"	f
+insert_head_list	createList.c	/^struct Inode* insert_head_list()$/;"	f
+inverse	inverse.c	/^void inverse(char*p)$/;"	f
+locateElem	polynomials.cpp	/^bool locateElem(LinkList L,LinkList  t,LinkList &q){$/;"	f
+mai	CalcCharNum.c	/^int mai(void)$/;"	f
+main	LinkListReverse.c	/^int main(){$/;"	f
+main	MaxSubSequm.c	/^int main()$/;"	f
+main	Simon.c	/^int main(void)$/;"	f
+main	checkBigdeban.c	/^int main(void)$/;"	f
+main	createList.c	/^int main()$/;"	f
+main	getMaxCountChar.c	/^int main()$/;"	f
+main	inverse.c	/^int main()$/;"	f
+main	polynomials.cpp	/^int main(){$/;"	f
+main	reverse.c	/^int main()$/;"	f
+main	sqr.c	/^int main()$/;"	f
+main	strFunction/strChr_my.c	/^int main()$/;"	f
+main	strFunction/strCmp_my.c	/^int main(void)$/;"	f
+main	strFunction/strLength.c	/^int main()$/;"	f
+main	strFunction/strcpy_my.c	/^int main()$/;"	f
+main	strFunction/strstr_my.c	/^int main()$/;"	f
+main	strFunction/strtok_my.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+max3	MaxSubSequm.c	/^int max3(int A,int B,int C)$/;"	f
+merge	LinkListReverse.c	/^List merge(List l1,List l2)$/;"	f
+n	getMaxCountChar.c	/^	int n;$/;"	m	struct:temp	file:
+next	createList.c	/^    struct Inode* next;$/;"	m	struct:Inode	typeref:struct:Inode::Inode	file:
+next	polynomials.cpp	/^	struct term* next;$/;"	m	struct:term	typeref:struct:term::term	file:
+node	createList.c	/^} node;$/;"	t	typeref:struct:Inode	file:
+polynomial	polynomials.cpp	/^typedef LinkList polynomial;$/;"	t	file:
+pop	combination.c	/^int pop(int* i)$/;"	f
+printPolynomial	polynomials.cpp	/^void printPolynomial(polynomial p){$/;"	f
+push	combination.c	/^int push(int i)$/;"	f
+solution	solution.c	/^int solution(char* height)$/;"	f
+strcpy_my	strFunction/strcpy_my.c	/^char* strcpy_my(char* des,const char* src)$/;"	f
+temp	getMaxCountChar.c	/^struct temp$/;"	s	file:
+term	polynomials.cpp	/^typedef struct term{$/;"	s	file:
+term	polynomials.cpp	/^}term,*LinkList;$/;"	t	typeref:struct:term	file:
+tmp	getMaxCountChar.c	/^}tmp;$/;"	v	typeref:struct:temp
